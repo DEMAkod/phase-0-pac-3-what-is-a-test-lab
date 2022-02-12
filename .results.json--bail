@@ -1,0 +1,67 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 3,
+    "passes": 2,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-02-12T19:20:57.385Z",
+    "end": "2022-02-12T19:20:57.651Z",
+    "duration": 266
+  },
+  "tests": [
+    {
+      "title": "returns \"Susan\"",
+      "fullTitle": "what-is-a-test Name returns \"Susan\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is less than 40",
+      "fullTitle": "what-is-a-test Height is less than 40",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Expected 74 to be less than 40\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toBeLessThan (node_modules/expect/lib/Expectation.js:156:28)\n    at Context.<anonymous> (test/index-test.js:12:22)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Expected 74 to be less than 40"
+      }
+    },
+    {
+      "title": "gives the name and height",
+      "fullTitle": "what-is-a-test Message gives the name and height",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is less than 40",
+      "fullTitle": "what-is-a-test Height is less than 40",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Expected 74 to be less than 40\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toBeLessThan (node_modules/expect/lib/Expectation.js:156:28)\n    at Context.<anonymous> (test/index-test.js:12:22)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Expected 74 to be less than 40"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "returns \"Susan\"",
+      "fullTitle": "what-is-a-test Name returns \"Susan\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "gives the name and height",
+      "fullTitle": "what-is-a-test Message gives the name and height",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
